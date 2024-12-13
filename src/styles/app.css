@@ -1,0 +1,21 @@
+:root {
+  --color-yellow: #fed41d;
+  --color-blue: #009ddc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+main {
+  padding: 2rem;
+  min-height: 80vh;
+  background-color: var(--color-blue);
+}
